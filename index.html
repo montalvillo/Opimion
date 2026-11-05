@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Articulos</title>
+
+<style>
+
+
+body
+/*{
+
+ margin: 0;
+    min-height: 100vh;
+
+    background-image: url("telarana1.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}*/
+.video-contenedor {
+    display: none;
+    margin-top: 15px;
+}
+
+.video-contenedor1 {
+    display: none;
+    margin-top: 15px;
+}
+
+.video-contenedor2 {
+    display: none;
+    margin-top: 15px;
+}
+
+.video-contenedor video {
+    width: 150px;
+    max-width: 100%;
+    height: 150px;
+    transition: transform 0.4s ease;
+    transform-origin: left center;
+
+}
+.video-contenedor1 video {
+    width: 150px;
+    max-width: 100%;
+    height: 150px;
+    transition: transform 0.4s ease;
+    transform-origin: left center;
+
+}
+
+.video-contenedor2 video {
+    width: 150px;
+    max-width: 100%;
+    height: 150px;
+    transition: transform 0.4s ease;
+    transform-origin: left center;
+
+}
+
+.enlace-video {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+.enlace-video1 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.enlace-video2 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.destacado {
+    color: rgb(0, 4, 255);
+    font-size: 20px;
+    font-style: italic;
+  }
+.destacado1 {
+    color: rgb(255, 102, 0);
+    font-size: 20px;
+    font-style: italic;
+  }
+  .destacado2 {
+    color: rgb(255, 102, 0);
+    font-size: 20px;
+    font-style: italic;
+  }
+   .destacado3 {
+    color: rgb(84, 10, 231);
+ font-size: 20px;
+    
+font-family: "calibri", Garamond, 'Comic Sans'; 
+  }
+ .destacado4 {
+    color: rgb(184, 134, 11);
+ font-size: 25px;
+    
+font-style:unset
+  }
+
+  /* Ampliar al pasar el ratón */
+.video-contenedor video:hover {
+    transform: scale(1.5);
+    position: relative;
+    z-index: 10;
+}
+.video-contenedor1 video:hover {
+    transform: scale(1.5);
+    position: relative;
+    z-index: 10;
+}
+
+.video-contenedor2 video:hover {
+    transform: scale(1.5);
+    position: relative;
+    z-index: 10;
+}
+
+
+.enlace-video {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+.enlace-video1 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+.enlace-video2 {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+    
+<audio id="miAudio">
+ <source src="Himno.mp3" type="audio/mpeg">
+</audio>
+
+ <!-- <audio autoplay loop>
+  <source src="musica.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>-->
+
+ <!--  <audio src="Himno.mp3" autoplay loop controls></audio> <p> Puedes pararlo pulsando  ⏸️ </p> -->
+   
+  
+<article>
+
+<h3>1.!Ah la vivienda!  <span class="destacado">La vivienda de la psoe</span></h3>
+<article>
+
+<p>
+ <span class="destacado1">El virus sanchezz</span> detecta la celula para infectar: "Los decretos de vivienda que el parlamneto no voto a favor"
+. Ya tenemos a quien culpar, lo primero que hace la psoe es hechar la culpa a otro u otros, la ultra-utra derechona facha, y por ahi
+  quiso entrar. pero...... aparecio La Ministra de vivienda, que la hay,  balbuceando las nuevas leyes. Mira el video y
+  la cara de sus compadres. Asi se domina a la ley de vivienda, ya denomimada <spam class="destacado2">La ley CACAO</spam>, hecha una mirada al video
+El ataque no prospero pero para terminar de rematarlo.........
+</p>
+</p>
+</article>
+<p></p>
+
+<div class="enlace-video" onclick="mostrarVideo()">
+    ▶ La ministra CACAO
+
+
+<div id="video" class="video-contenedor">
+    <video id="reproductor" controls>
+        <source src="cacao.mp4" type="video/mp4">
+        Tu navegador no admite vídeos.
+</div>
+
+</div>
+
+
+<spam class="destacado2">Llega la portavoz,</spam> <spam class="destacado3"> La gran Montse Minguez</spam> 
+
+  <spam class="destacado3"></spam>. La primera vez que la vi fue en una conferencia de prensa, me arranco una gran risotada.
+  nada de este gobierno de corta y pega, me sorprende, bueno me sorprendio, aun me sorprende el video del tito Berni, en calzoncillos, con sun gayumbos
+  blacos, como los que usaba yo en la mili.
+
+</p>
+
+
+
+<div class="enlace-video1" onclick="mostrarVideo1()">
+    ▶ La  Montse "La graciosa"
+
+<div id="video1" class="video-contenedor1">
+    <video id="reproductor1" controls>
+        <source src="mevoy.MP4" type="video/mp4">
+        Tu navegador no admite vídeos.
+    </video>
+    
+</div>
+</div>
+</article>
+<article>
+
+<P>Tonta, pero tonta TONTA TONTA, "Atencion niños esto es un cargo socialista."
+
+</P>
+
+
+</article>
+
+<article>
+    
+<div class="enlace-video2" onclick="mostrarVideo2()">
+    ▶ La portavoz.
+
+<div id="video2" class="video-contenedor2">
+    <video id="reproductor2" controls>
+        <source src="flasa.mp4" type="video/mp4">
+        Tu navegador no admite vídeos.
+    </video>
+
+</div>
+</div>
+
+</article>
+<article>
+    <p>No es mas que otra socialista, mintiendo al pueblo y sabienddo lo que tiene en casa,
+    Lo dice con todo descaro, es la politica socialista y progresista, tu miente que estos se lo creen,
+    es lo que quieren oir, miente y miente ya ademas hazlo con rotundidad, es la politica 
+    del relato. Pero el dato mata al relanto y a esta su relato cayo fulminado. Ademas cedio unos terrenos, siendo del ayuntamiento, para que su marido 
+    construyera las viviendas
+    </p>
+</article>
+
+<div class="galeria">
+
+    <img src="montseA.WEBP" alt="Foto 1">
+    <img src="motse.WEBP" alt="Foto 2">
+    <img src="montse3.webp" alt="Foto 3">
+    <img src="montselujo.WEBP" alt="Foto 4">
+    <br>
+<article>
+<p> <spam class="destacado4">La  psoe y la vivienda</spam> 
+
+<img src="congreso1.webp" alt="Foto 1">
+    <img src="congreso2.webp" alt="Foto 2">
+    <img src="congreso3.webp" alt="Foto 3">
+    <img src="sanchez.webp" alt="Foto 4">
+    <img src="viviendapsoe.webp" alt="Foto 4">
+     <img src="psoe1.webp" alt="Foto 4">
+      <img src="casta.webp" alt="Foto 4">
+      <img src="vivenda.webp" alt="Foto 4">
+      <h3> Madrid SI Hace VIVIENDAS</h3>
+
+<img src="madrid.webp" alt="Foto 4">
+<img src="madrid3.webp" alt="Foto 4">
+<img src="madrid copia.webp" alt="Foto 4">
+<img src="fondobuitre.webp" alt="Foto 4">
+
+
+</div>
+</article>
+
+
+<script>
+
+
+window.addEventListener("load", function() {
+
+    setTimeout(function() {
+        const audio = document.getElementById("miAudio");
+
+        audio.currentTime = 0;
+        audio.loop = false;
+        audio.play();
+
+    }, 2000);
+
+});
+
+
+
+
+function mostrarVideo() {
+    var video = document.getElementById("video");
+    var reproductor = document.getElementById("reproductor");
+
+    video.style.display = "block";
+    reproductor.currentTime = 0;
+    reproductor.play();
+
+}
+
+function mostrarVideo1() {
+    var video = document.getElementById("video1");
+    var reproductor = document.getElementById("reproductor1");
+
+    video.style.display = "block";
+    reproductor.currentTime = 0;
+    reproductor.play();
+
+}
+
+
+function mostrarVideo2() {
+    var video = document.getElementById("video2");
+    var reproductor = document.getElementById("reproductor2");
+
+    video.style.display = "block";
+    reproductor.currentTime = 0;
+    reproductor.play();
+
+}
+
+
+// Ocultar automáticamente al terminar
+document.getElementById("reproductor").addEventListener("ended", function() {
+    this.currentTime = 0;
+    document.getElementById("video").style.display = "none";
+
+    
+    
+});
+
+
+document.getElementById("reproductor1").addEventListener("ended", function() {
+    this.currentTime = 0;
+    document.getElementById("video1").style.display = "none";
+
+    
+    
+});
+document.getElementById("reproductor2").addEventListener("ended", function() {
+    this.currentTime = 0;
+    document.getElementById("video2").style.display = "none";
+
+    
+    
+});
+
+
+
+window.addEventListener("load", function() {
+
+    setTimeout(function() {
+        document.getElementById("miAudio").play();
+    }, 2000);
+
+});
+</script>
+
+</body>
+</html>
